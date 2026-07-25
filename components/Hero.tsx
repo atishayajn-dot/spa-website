@@ -106,7 +106,7 @@ export default function Hero() {
 
                 <div className="flex justify-between">
                   <span>Experience</span>
-                  <span className="font-semibold text-white">20+ Years</span>
+                  <span className="font-semibold text-white">25+ Years</span>
                 </div>
 
                 <div className="flex justify-between">
