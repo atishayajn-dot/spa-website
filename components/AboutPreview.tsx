@@ -3,7 +3,7 @@ export default function AboutPreview() {
   {
     number: "20+",
     label: "years Of Serving Clients",
-  },,
+  },
     {
       number: "2",
       label: "Offices",
