@@ -40,8 +40,7 @@ export default function Stats() {
           </h2>
 
           <p className="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">
-            Serving clients for over 20 years, helping businesses navigate taxation,
-regulatory compliance, and international expansion.
+            
           </p>
         </div>
 
