@@ -126,13 +126,13 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
 
-            {[
-              { number: "30+", label: "Years of Experience" },
-              { number: "2", label: "Office Locations" },
-              { number: "100%", label: "Client Commitment" },
-              { number: "Global", label: "Business Advisory" },
-            ].map((item) => (
-              <div
+  {[
+    { number: "20+", label: "Serving Clients for Over 20 Years" },
+    { number: "2", label: "Office Locations" },
+    { number: "100%", label: "Client Commitment" },
+    { number: "Global", label: "Business Advisory" },
+  ].map((item) => (
+    <div
                 key={item.label}
                 className="rounded-2xl border border-slate-200 p-8 text-center hover:shadow-lg transition"
               >
