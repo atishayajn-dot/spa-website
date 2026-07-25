@@ -6,9 +6,9 @@ export default function Stats() {
   const stats = [
    {
   icon: <Award size={32} />,
-  number: "20+",
-  title: "Years Serving Clients",
-  description: "Serving clients with trusted tax and advisory services for over 20 years.",
+  number: "Since 2006",
+  title: "Firm Established",
+  description: "Smita Patni & Associates has been serving businesses for over 20 years.",
 },
     {
       icon: <Building2 size={32} />,
