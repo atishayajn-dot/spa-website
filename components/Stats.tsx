@@ -4,12 +4,12 @@ import { Building2, Globe2, ShieldCheck, Award } from "lucide-react";
 
 export default function Stats() {
   const stats = [
-    {
-      icon: <Award size={32} />,
-      number: "30+",
-      title: "Years Experience",
-      description: "Delivering trusted tax and advisory services since 2006.",
-    },
+   {
+  icon: <Award size={32} />,
+  number: "20+",
+  title: "Years Serving Clients",
+  description: "Serving clients with trusted tax and advisory services for over 20 years.",
+},
     {
       icon: <Building2 size={32} />,
       number: "2",
@@ -40,8 +40,8 @@ export default function Stats() {
           </h2>
 
           <p className="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">
-            Decades of experience helping businesses navigate taxation,
-            regulatory compliance and international expansion.
+            Serving clients for over 20 years, helping businesses navigate taxation,
+regulatory compliance, and international expansion.
           </p>
         </div>
 
