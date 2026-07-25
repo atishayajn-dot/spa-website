@@ -1,9 +1,9 @@
 export default function AboutPreview() {
   const stats = [
-    {
-      number: "30+",
-      label: "Years Experience",
-    },
+  {
+    number: "20+",
+    label: "years Of Serving Clients",
+  },,
     {
       number: "2",
       label: "Offices",
