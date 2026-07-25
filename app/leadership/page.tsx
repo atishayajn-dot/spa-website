@@ -108,71 +108,78 @@ export default function LeadershipPage() {
         </div>
       </section>
 
-      {/* Associates */}
-      <section className="bg-slate-50 py-20">
-        <div className="max-w-7xl mx-auto px-6">
+      {/* PROFESSIONAL TEAM */}
 
-          <h2 className="text-4xl font-bold text-center text-slate-900">
-            Senior Associates
-          </h2>
+<section className="mt-24">
+  <div className="text-center mb-14">
+    <h2 className="text-4xl font-bold text-slate-900">
+      Our Professional Team
+    </h2>
 
-          <p className="text-center text-slate-600 mt-4 max-w-2xl mx-auto">
-            Supporting our clients with specialist expertise and
-            collaborative problem-solving.
-          </p>
+    <p className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
+      A dedicated team of professionals committed to delivering
+      exceptional service and building lasting client relationships.
+    </p>
+  </div>
 
-          <div className="grid md:grid-cols-2 gap-10 mt-14">
+  <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
 
-          
+    {[
+      {
+        name: "Team Member",
+        role: "Senior Associate",
+        desc: "Experienced professional supporting taxation, advisory and client engagement."
+      },
+      {
+        name: "Team Member",
+        role: "Tax Consultant",
+        desc: "Assists clients with direct taxation, GST and regulatory compliance."
+      },
+      {
+        name: "Team Member",
+        role: "Accountant",
+        desc: "Manages accounting operations, reporting and financial documentation."
+      },
+      {
+        name: "Team Member",
+        role: "Compliance Executive",
+        desc: "Coordinates statutory filings and corporate compliance requirements."
+      },
+      {
+        name: "Team Member",
+        role: "Accounts Executive",
+        desc: "Supports bookkeeping, reconciliations and day-to-day financial operations."
+      },
+    ].map((member, index) => (
+      <div
+        key={index}
+        className="bg-white rounded-3xl border border-slate-200 p-8 text-center shadow-sm hover:shadow-xl hover:-translate-y-2 transition duration-300"
+      >
 
-                      {/* Associate 1 */}
-            <div className="bg-white rounded-3xl border border-slate-200 p-8 hover:shadow-xl transition">
-
-              <div className="h-56 rounded-2xl bg-slate-100 flex items-center justify-center text-slate-400">
-                Associate Photo
-              </div>
-
-              <h3 className="mt-6 text-2xl font-bold text-slate-900">
-                Associate Name
-              </h3>
-
-              <p className="mt-2 text-amber-500 font-medium">
-                Senior Associate
-              </p>
-
-              <p className="mt-5 text-slate-600 leading-7">
-                Add a short professional biography highlighting experience,
-                qualifications and key areas of expertise.
-              </p>
-
-            </div>
-
-            {/* Associate 2 */}
-            <div className="bg-white rounded-3xl border border-slate-200 p-8 hover:shadow-xl transition">
-
-              <div className="h-56 rounded-2xl bg-slate-100 flex items-center justify-center text-slate-400">
-                Associate Photo
-              </div>
-
-              <h3 className="mt-6 text-2xl font-bold text-slate-900">
-                Associate Name
-              </h3>
-
-              <p className="mt-2 text-amber-500 font-medium">
-                Senior Associate
-              </p>
-
-              <p className="mt-5 text-slate-600 leading-7">
-                Add a short professional biography highlighting experience,
-                qualifications and key areas of expertise.
-              </p>
-
-            </div>
-
-          </div>
-
+        <div className="w-24 h-24 mx-auto rounded-full bg-slate-200 flex items-center justify-center text-3xl font-bold text-slate-700">
+          {member.name
+            .split(" ")
+            .map((word) => word[0])
+            .join("")}
         </div>
-      </section>
+
+        <h3 className="mt-6 text-2xl font-bold text-slate-900">
+          {member.name}
+        </h3>
+
+        <p className="mt-2 text-amber-600 font-semibold">
+          {member.role}
+        </p>
+
+        <p className="mt-5 text-slate-600 leading-7">
+          {member.desc}
+        </p>
+
+      </div>
+    ))}
+
+  </div>
+</section>
 
       {/* Leadership Principles */}
       <section className="py-20">
