@@ -127,7 +127,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
 
   {[
-    { number: "20+", label: "Serving Clients for Over 20 Years" },
+    { number: "20+ years ", label: "Serving Clients for Over 20 Years" },
     { number: "2", label: "Office Locations" },
     { number: "100%", label: "Client Commitment" },
     { number: "Global", label: "Business Advisory" },

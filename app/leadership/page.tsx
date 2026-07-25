@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, Award, Briefcase, GraduationCap } from "lucide-react";
 
 export default function LeadershipPage() {
@@ -32,9 +33,16 @@ export default function LeadershipPage() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
 
-          <div className="h-[500px] rounded-3xl bg-slate-100 flex items-center justify-center text-slate-400 text-xl">
-            Managing Partner Photo
-          </div>
+          <div className="flex justify-center">
+  <Image
+    src="/images/smita-patni.jpg"
+    alt="CA Smita Patni"
+    width={430}
+    height={540}
+    priority
+    className="rounded-3xl object-cover object-top shadow-2xl border border-slate-200"
+  />
+</div>
 
           <div>
 
